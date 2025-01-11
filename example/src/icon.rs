@@ -36,6 +36,9 @@ define_icons! {
     cardboard_box => "jam/archive",
     open_box => "jam/inbox",
     small_box => "jam/box",
+    accessible => "tabler/accessible",
+    at => "tabler/at",
+    copy => "tabler/copy",
 }
 
 fn icon<'a>(name: &str) -> Text<'a> {

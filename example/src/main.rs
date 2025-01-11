@@ -35,6 +35,13 @@ impl App {
                         icon::small_box(),
                         horizontal_space(),
                     ],
+                    row![
+                        horizontal_space(),
+                        icon::accessible(),
+                        icon::at(),
+                        icon::copy(),
+                        horizontal_space(),
+                    ],
                 ]
                 .spacing(25),
             )
