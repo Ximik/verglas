@@ -27,12 +27,12 @@ impl App {
                     row![icon::book(), "Here is some text:"].spacing(3),
                     row![
                         horizontal_space(),
-                        icon::cat_right(),
-                        icon::cardboard_box(),
-                        icon::cat_left(),
-                        icon::open_box(),
-                        icon::cat_left(),
-                        icon::small_box(),
+                        icon::artboard(),
+                        icon::copy(),
+                        icon::qrcode(),
+                        icon::arrow_to(),
+                        icon::arrow_from(),
+                        icon::at(),
                         horizontal_space(),
                     ],
                 ]

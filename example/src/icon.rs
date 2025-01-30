@@ -36,6 +36,12 @@ define_icons! {
     cardboard_box => "jam/archive",
     open_box => "jam/inbox",
     small_box => "jam/box",
+    artboard => "tabler/artboard",
+    copy => "tabler/copy",
+    arrow_to => "tabler/arrow-down-to-arc",
+    arrow_from => "tabler/arrow-down-from-arc",
+    qrcode => "tabler/qrcode",
+    at => "tabler/at",
 }
 
 fn icon<'a>(name: &str) -> Text<'a> {
@@ -44,5 +50,5 @@ fn icon<'a>(name: &str) -> Text<'a> {
         char::REPLACEMENT_CHARACTER
     });
 
-    text(unicode.to_string()).font(FONT)
+    text(unicode.to_string()).font(FONT).size(30)
 }
